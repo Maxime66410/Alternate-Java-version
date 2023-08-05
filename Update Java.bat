@@ -18,13 +18,13 @@ ECHO "%choice%" is not valid, try again
 ECHO.
 goto start
 :java8
-setx PATH "C:\Users\wysix\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\system32\Wbem;%SystemRoot%\system32\WindowsPowerShell\v1.0\;%SystemRoot%\system32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin" /m
+setx PATH "C:\Users\NAMEOFPC\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\system32\Wbem;%SystemRoot%\system32\WindowsPowerShell\v1.0\;%SystemRoot%\system32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_202\bin" /m
 goto end
 :java11
-setx PATH "C:\Users\wysix\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\system32\Wbem;%SystemRoot%\system32\WindowsPowerShell\v1.0\;%SystemRoot%\system32\OpenSSH\;C:\Program Files\Java\jdk-11\bin" /m
+setx PATH "C:\Users\NAMEOFPC\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\system32\Wbem;%SystemRoot%\system32\WindowsPowerShell\v1.0\;%SystemRoot%\system32\OpenSSH\;C:\Program Files\Java\jdk-11\bin" /m
 goto end
 :java17
-setx PATH "C:\Users\wysix\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\system32\Wbem;%SystemRoot%\system32\WindowsPowerShell\v1.0\;%SystemRoot%\system32\OpenSSH\;C:\Program Files\Java\jdk-17\bin" /m
+setx PATH "C:\Users\NAMEOFPC\AppData\Local\Microsoft\WindowsApps;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\system32\Wbem;%SystemRoot%\system32\WindowsPowerShell\v1.0\;%SystemRoot%\system32\OpenSSH\;C:\Program Files\Java\jdk-17\bin" /m
 goto end
 :end
 pause
